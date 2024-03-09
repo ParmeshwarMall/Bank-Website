@@ -1,0 +1,14 @@
+.footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    padding: 10px;
+}
+.creater{
+    color: white;
+}
+.copyright{
+    color: white;
+}

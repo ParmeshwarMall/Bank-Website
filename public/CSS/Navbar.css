@@ -1,0 +1,80 @@
+
+.navBar{
+    background-color: aquamarine;
+    padding: 10px;
+    position: sticky;
+    top: 0;
+    width: 100%;
+    left:0;
+    z-index: 2;
+    
+}
+.items{
+    position: relative;
+    left: 40vh;
+    width: 75%;
+}
+#btn{
+    font-weight: bold;
+    margin: 10px;
+    border-radius: 20px;
+    color: black;
+    background-color: rgb(132, 237, 226);
+}
+#btn:hover{
+    transform: scale(1.1);
+    transition: all .3s linear;
+}
+.logo-poster{
+    margin: auto;
+    float: left;
+    height: 40px;
+    width: 250px;
+}
+.logoposter2{
+    float: right;
+    height: 70px;
+    width: 80px;
+    position: absolute;
+    top: 0;
+    left: 89rem;
+}
+
+.container9{
+    background-color: rgb(220, 235, 230);
+    height: 90vh;
+    padding: 10px;
+}
+
+.container10{
+    background-color: rgb(220, 235, 230);
+    padding: 10px;
+}
+.serhead{
+    display: flex;
+    justify-content: center;
+}
+.conthead{
+    display: flex;
+    justify-content: center;
+}
+.container11{
+    background-color:rgb(220, 235, 230);
+    height: 90vh;
+    padding: 10px;
+}
+
+.fa-snowflake{
+    transition: all linear;
+    animation: rot 2s linear infinite;
+    color:black;
+    scale: 1.5;
+}
+@keyframes rot {
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}

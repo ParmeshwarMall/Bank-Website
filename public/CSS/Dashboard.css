@@ -1,0 +1,107 @@
+
+
+.container7{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color:rgba(245, 211, 211, 0.5);
+    padding: 30px;
+    margin:1.9rem;
+    width: 70%;
+    margin-left: 13rem;
+    border: 2px solid black;
+    border-radius: 10px;
+    box-shadow:5px 5px 5px rgba(0, 0, 0, 0.5), -5px -5px 5px rgba(222, 164, 164, 0.5);
+}
+.accInfo1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+#accbtn{
+    margin-left: 30px;
+    border-radius: 20px;
+    background-color: aliceblue;
+    color: black;
+    font-weight: bold;
+    font-size: medium;
+}
+#accbtn:hover{
+    scale: 1.1;
+    transition: all .3s linear;
+    background-color: aquamarine;
+}
+#homebtn{
+    margin-left: 30px;
+    border-radius: 20px;
+    background-color: aliceblue;
+    color: black;
+    font-weight: bold;
+    font-size: medium;
+}
+#homebtn:hover{
+    scale: 1.2;
+    transition: all .3s linear;
+    background-color: rgb(197, 199, 241);
+}
+.container8{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color:rgba(215, 226, 202, 0.463);
+    padding: 30px;
+    margin-top:5rem;
+    width: 70%;
+    margin-left: 13rem;
+    border: 2px solid black;
+    border-radius: 10px;
+    box-shadow:5px 5px 5px rgba(0, 0, 0, 0.5), -5px -5px 5px rgba(222, 164, 164, 0.5);
+}
+.form2{
+    width: 20rem;
+    background-color: rgb(169, 171, 232);
+}
+.balinfo{
+    margin: 20px;
+}
+.form-label{
+    font-size: larger;
+    font-weight: bold;
+}
+#balbtn{
+    margin-left: 8rem;
+    border-radius: 20px;
+    background-color: aliceblue;
+    color: black;
+    font-weight: bold;
+    font-size: medium;
+}
+#balbtn:hover{
+    scale: 1.1;
+    transition: all .3s linear;
+    background-color: rgb(210, 237, 228);
+}
+
+.transhistory{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color:rgba(215, 226, 202, 0.463);
+    padding: 30px;
+    margin:5rem;
+    width: 70%;
+    margin-left: 13rem;
+    border: 2px solid black;
+    border-radius: 10px;
+    box-shadow:5px 5px 5px rgba(0, 0, 0, 0.5), -5px -5px 5px rgba(222, 164, 164, 0.5);
+}
+
+.bodyimg{
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+}

@@ -1,0 +1,229 @@
+.container1 {
+    background-color: rgb(220, 235, 230);
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 5rem;
+}
+
+.login {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(220, 235, 230);
+}
+
+#bdybtn {
+    border-radius: 20px;
+    color: black;
+    background-color: rgb(132, 237, 226);
+
+}
+
+#bdybtn:hover {
+    font-weight: bold;
+    transform: scale(1.1);
+    transition: all .3s linear;
+}
+
+.heading {
+    display: flex;
+    justify-content: center;
+    font-weight: 20vh;
+}
+
+.container2 {
+    background-color: rgb(220, 235, 230);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 40rem;
+}
+
+.btn {
+    position: relative;
+    left: 92px;
+}
+
+.btn:hover {
+    transform: scale(1.1);
+    transition: all .3s linear;
+}
+
+.form-label {
+    font-size: large;
+    font-weight: 20px;
+}
+
+.iconcontainer1 {
+
+    display: flex;
+    flex-direction: column;
+    float: right;
+    position: relative;
+    top: -290px;
+    height: 1px;
+}
+
+.iconcontainer2 {
+
+    display: flex;
+    flex-direction: column;
+    float: left;
+    position: relative;
+    top: -290px;
+    height: 1px;
+}
+
+.icons {
+    padding: 10px;
+}
+
+.container4 {
+    z-index: -1;
+    background-color: rgb(220, 235, 230);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    width: 100%;
+}
+
+.card {
+    width: 25rem;
+    height: 27rem;
+    margin: 20px;
+    border: 2px solid black;
+    border-radius: 15px;
+    z-index: 1;
+}
+
+.card-text {
+    font-weight: bold;
+}
+
+.container5 {
+    height: 25rem;
+    display: flex;
+    padding: 30px;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.carousel-inner {
+    width: 30rem;
+}
+
+.infoCont {
+    height: 25rem;
+    width: 25rem;
+}
+
+.retailImage {
+    height: 20rem;
+    width: 25rem;
+}
+
+.imgInfo {
+    opacity: 0;
+    position: relative;
+    top: -268px;
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    margin: 22px;
+    height: 12rem;
+    border: 2px solid black;
+    border-radius: 15px;
+}
+
+.imgInfo:hover {
+    opacity: .7;
+    color: black;
+    transition: all .5s linear;
+}
+
+.imgBtn {
+    width: 15rem;
+    margin-top: 8px;
+    position: relative;
+    left: 4rem;
+}
+
+.aboutImg {
+    background-color: black;
+    color: white;
+    position: relative;
+    top: 42px;
+    text-align: center;
+    opacity: .7;
+}
+
+.bankimg {
+    margin-top: 45px;
+    height: 20rem;
+    width: 25rem;
+}
+
+.icons:hover {
+    -webkit-animation: icons 0.65s linear both;
+    animation: icons 0.65s linear both;
+}
+
+@-webkit-keyframes icons {
+    0% {
+        -webkit-transform: scale(1) rotateZ(0);
+        transform: scale(1) rotateZ(0);
+    }
+
+    50% {
+        -webkit-transform: scale(1.3) rotateZ(180deg);
+        transform: scale(1.3) rotateZ(180deg);
+    }
+
+    100% {
+        -webkit-transform: scale(1) rotateZ(360deg);
+        transform: scale(1) rotateZ(360deg);
+    }
+}
+
+@keyframes icons {
+    0% {
+        -webkit-transform: scale(1) rotateZ(0);
+        transform: scale(1) rotateZ(0);
+    }
+
+    50% {
+        -webkit-transform: scale(1.3) rotateZ(180deg);
+        transform: scale(1.3) rotateZ(180deg);
+    }
+
+    100% {
+        -webkit-transform: scale(1) rotateZ(360deg);
+        transform: scale(1) rotateZ(360deg);
+    }
+}
+
+.mainhed {
+    -webkit-animation: mainhed 0.6s both;
+	animation: mainhed 0.6s both;
+}
+
+@-webkit-keyframes mainhed {
+    0% {
+      text-shadow: 0 0 0 rgba(0, 0, 0, 0);
+    }
+    100% {
+      text-shadow: 0 0 18px rgba(0, 0, 0, 0.35);
+    }
+  }
+  @keyframes mainhed {
+    0% {
+      text-shadow: 0 0 0 rgba(0, 0, 0, 0);
+    }
+    100% {
+      text-shadow: 0 0 18px rgba(0, 0, 0, 0.35);
+    }
+  }
+  
